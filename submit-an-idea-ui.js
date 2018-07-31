@@ -101,7 +101,7 @@ class SubmitAnIdeaUi extends PolymerElement {
       this.$.spinner.active = true;
       this.$.spinner.classList.add('active');
 
-      var url = 'https://3oemw4weak.execute-api.us-east-1.amazonaws.com/api/submit-an-idea-api';
+      var url = 'https://xupmhdl2g5.execute-api.us-east-1.amazonaws.com/api/submit-an-idea-api';
       var data = {idea: this.$.submitIdea.value, email: this.$.submitEmail.value};
       let err = false;
 
